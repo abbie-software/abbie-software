@@ -15,3 +15,26 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+# ☕ Abbie's Coffee House
+
+Welcome to the digital home of **Abbie's Coffee House**! This is a frontend web project built to showcase a cozy, modern coffee shop experience.
+
+## 🚀 Live Demo
+You can view the live website here: 
+** https://abbie-software.github.io/abbie-software/**
+
+## ✨ Features
+* **Modern Menu:** A clean list of our best brews and pastries.
+* **Responsive Design:** Looks great on both desktop and mobile.
+* **Cozy Aesthetic:** Uses a warm color palette to match the coffee vibe.
+
+## 🛠️ Technologies Used
+* **HTML5:** For the structure of the site.
+* **CSS3:** For the styling and layout.
+* **GitHub Pages:** For hosting the live site.
+
+## 📸 Screenshots
+*(Coming soon!)*
+
+## 👩‍💻 About the Developer
+I'm Abbie, a budding software developer learning the ropes of Git, GitHub, and Frontend web development!
