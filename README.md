@@ -21,7 +21,7 @@ Welcome to the digital home of **Abbie's Coffee House**! This is a frontend web 
 
 ## 🚀 Live Demo
 You can view the live website here: 
-[https://abbie-software.github.io/abbie-software/](https://abbie-software.github.io/abbie-software/)
+[https://abbie-software.github.io/abbie-software/coffee.html](https://abbie-software.github.io/abbie-software/coffee.html)
 
 ## ✨ Features
 * **Modern Menu:** A clean list of our best brews and pastries.
