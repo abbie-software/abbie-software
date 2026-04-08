@@ -1,19 +1,26 @@
-<div align="center">
-  <h1>Hi, I'm Abbie! 👋</h1>
-  <p>Exploring the world of web development one <div> at a time.</p>
-</div>
-<div align="center">
-  <img src="https://export-download.canva.com/1lDJk/DAHFWE1lDJk/7/0/0001-7021610277213570210.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260329T160645Z&X-Amz-Expires=6838&X-Amz-Signature=86e539f7681c4e0a46b91bf799f9a37426e1c9ee338bad902543d702e26b98ea&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27ABBIE%25E2%2580%2599S%2520CODE%2520WORLD.png&response-expires=Sun%2C%2029%20Mar%202026%2018%3A00%3A43%20GMT"
-</div>
-I am an **aspiring Software Developer** currently focusing on building clean, functional frontend experiences and exploring the world of data. I love turning complex problems into simple, beautiful code.
+# Hi👋 i am Abbie and welcome to my very interesting journey of software development from scratch
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Code+with+Abbie;Software+Development+Student;Ubuntu+Linux+Enthusiast" alt="Typing SVG" />
+</p>
+## 🚀 My Journey
+I am an aspiring Software Developer currently mastering Web Development. Familiar with Cloud Infrastructure,and learning how to utilize Google Cloud Platform (GCP) for service management and environment configuration. 
+
+My path hasn't been a straight line—after a critical system failure on my Windows machine, I took the leap and transitioned entirely to Linux (Ubuntu). This challenge turned into a major growth opportunity, forcing me to master the terminal, understand OS internals, and rebuild my development environment from the ground up.
+
+- 🔭 Current Focus:Building responsive frontend projects and preparing for Backend development.
+- ⚙️ Environment: Ubuntu Linux | Git | VS Code | Google Cloud Platform.
+-  💡Mindset: "If it breaks, learn how it works, then FIX it better."
 ---
 
 ### 🚀 languages
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-
+### 🛠 Languages & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html5,css3,js,java,c,python,git,ubuntu,vscode,gcp" />
+</p>
 ---
 
 ### 🛠️ My Toolbox
@@ -24,10 +31,13 @@ I am an **aspiring Software Developer** currently focusing on building clean, fu
 
 ---
 
-### 📫 Let's Connect!
-* Check out my repositories below to see my progress!
+### 📊 My GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abbie-software&show_icons=true&theme=radical" alt="Abbie's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abbie-software&layout=compact&theme=radical" alt="Top Languages" />
+</p>
 
-
----
-
-![Abbie's GitHub Stats](https://github-readme-stats.vercel.app/api?abbie-software&show_icons=true&theme=radical)
+### 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=abbie-software&theme=radical" alt="Trophies" />
+</p>
