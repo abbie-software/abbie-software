@@ -13,10 +13,7 @@ My path hasn't been a straight line—after a critical system failure on my Wind
 -  💡Mindset: "If it breaks, learn how it works, then FIX it better."
 ---
 
-### 🚀 languages
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+
 ### 🛠 Languages & Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html5,css3,js,java,c,python,git,ubuntu,vscode,gcp" />
