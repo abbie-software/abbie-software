@@ -12,6 +12,7 @@ My path hasn't been a straight line—after a critical system failure on my Wind
 - ⚙️ Environment: Ubuntu Linux | Git | VS Code | Google Cloud Platform.
 -  💡Mindset: "If it breaks, learn how it works, then FIX it better."
 ---
+📄 [Download My CV](./Abigail_Gathoni_Murigi_CV.pdf)
 
 
 ### 🛠 Languages & Tools
