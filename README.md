@@ -27,7 +27,7 @@ My path hasn't been a straight line—after a critical system failure on my Wind
 * **OS:** linux(ubuntu)
 
 ---
-📄 [Download My CV](./Abigail_Gathoni_Murigi_CV.pdf)
+📄 [View My CV](https://abbie-software.vercel.app)
 
 ### 📊 My GitHub Stats
 <p align="center">
