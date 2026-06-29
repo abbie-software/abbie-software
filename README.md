@@ -16,20 +16,18 @@ My path hasn't been a straight line—after a critical system failure on my Wind
 
 ### 🛠 Languages & Tools
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html5,css3,js,java,c,python,git,ubuntu,vscode,gcp,react,vite,tailwindcss,vercel,typescript" />
+  <img src="https://skillicons.dev/icons?i=html5,css3,js,java,c,python,git,ubuntu,vscode,gcp" />
 </p>
 ---
 
 ### 🛠️ My Toolbox
-* **Frontend:** HTML5, CSS3, Tailwindcss v4, JavaScript, Typescript, React frameworks, Vite
-* **Tools:** Cursor, VS Code, Git & GitHub, PowerShell, vercel
+* **Frontend:** HTML5, CSS>3, JavaScript (Learning)
+* **Tools:** Cursor, VS Code, Git & GitHub, PowerShell
 * **Databases:** Microsoft Access, Database Design (ER-Diagrams)
 * **OS:** linux(ubuntu)
 
 ---
-📄 [View My CV](https://abbie-software.vercel.app)
-📄 [Download My CV](./Abigail_Gathoni_Murigi_CV.pdf)
-
+📄 [View my CV](resume/Abigail_Gathoni_Murigi_CV_updated.pdf)
 ### 📊 My GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abbie-software&show_icons=true&theme=radical" alt="Abbie's Stats" />
