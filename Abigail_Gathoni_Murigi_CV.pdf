@@ -1,0 +1,46 @@
+ABIGAIL GATHONI MURIGI
+Junior Software Developer  |  Frontend Specialist
+Nairobi, Kenya  |  abigailmurigi01@gmail.com  |  github.com/abbie-software  |  linkedin.com/in/abigail-gathoni
+
+PROFESSIONAL SUMMARY
+
+An aspiring and detail-oriented Software Developer with hands-on experience building full-stack web applications and managing relational databases. Proficient in frontend frameworks including React and Angular, with backend exposure through Java and PHP. Adept at working in Linux (Ubuntu) environments, utilizing containerization (Docker), and managing version control via Git/GitHub. Passionate about solving real-world problems through clean code and modern development workflows, with a commitment to continuous learning and collaboration.
+
+TECHNICAL SKILLS
+
+Languages:  Java, JavaScript, SQL (MySQL), HTML5, CSS3
+Frameworks & Tools:  React, Next.js, Angular, Vite, Spring Boot
+Environments & Dev:  Linux (Ubuntu), Docker, Git/GitHub, VS Code, Cursor AI
+Core Competencies:  Full-Stack Web Development, Relational Database Design, Responsive UI Design, API Testing, Component-Based Architecture
+
+PROJECTS
+
+E-Commerce Coffee Shop Platform	React · Vite · Vercel
+github.com/abbie-software
+•Built a fully responsive, modern frontend web application featuring state management for dynamic menu selection and cart functionality.
+•Refactored original static HTML architecture into a modular, component-based React framework, dramatically increasing code reusability and UI rendering performance.
+•Configured automated continuous deployment (CD) pipelines leveraging Vercel and GitHub Pages, enabling zero-downtime releases.
+
+Greenfield Institute – Student Login System	PHP · MySQL · Apache
+•Designed and implemented a secure backend authentication system for a student management portal, including session handling and input validation.
+•Developed normalized MySQL database schemas to efficiently handle user credentials and student baseline profiles.
+•Configured and managed local Apache/PHP environments, successfully troubleshooting complex runtime and database connectivity errors.
+
+Hospital Management Database System	Microsoft Access · SQL
+•Engineered a relational database structure to streamline administrative record-keeping for patients, doctors, and appointments.
+•Defined strict multi-table relationships to maintain absolute data integrity and prevent record duplication across the system.
+
+EDUCATION
+
+BSc in Mathematics and Computer Science	2024 – 2028
+Jomo Kenyatta University of Science and Technology (JKUST) — Nairobi, Kenya
+•Relevant Coursework: Internet Application Programming, Operating Systems, Object-Oriented Programming, Database Management Systems, Data Structures & Algorithms, Probability & Statistics, Abstract Algebra.
+
+ACTIVITIES & ACHIEVEMENTS
+
+Hackathon Participant	Competitive Events
+•Collaborated with cross-functional teams to ideate, design, and ship working solutions under time pressure, strengthening rapid prototyping and teamwork skills.
+
+Tech Workshops Attendee	Continuous Learning
+•Attended multiple technical workshops covering modern web development, best practices, and emerging technologies in the software industry.
+•Actively growing through peer collaboration, open source exploration, and community involvement in the Nairobi tech ecosystem.
