@@ -1,7 +1,7 @@
 # Hi👋 i am Abbie and welcome to my very interesting journey of software development from scratch
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Code+with+Abbie;Software+Development+Student;Ubuntu+Linux+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Code+with+Abbie;Software+Developer;Frontend+developer;Ubuntu+Linux+Enthusiast" alt="Typing SVG" />
 </p>
 ## 🚀 My Journey
 I am an aspiring Software Developer currently mastering Web Development. Familiar with Cloud Infrastructure,and learning how to utilize Google Cloud Platform (GCP) for service management and environment configuration. 
