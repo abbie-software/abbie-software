@@ -1,9 +1,10 @@
-# Hi👋 i am Abbie and welcome to my very interesting journey of software development from scratch
+# Hey. I am <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=⋆.ೃ࿔𐦍Abbie🌸*:･ " alt = "Typing SVG" /> and welcome to my very interesting journey of software development from scratch
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Code+with+Abbie;Software+Developer;Frontend+developer;Ubuntu+Linux+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Code+with+Abbie; Math and Computer Science student; Software+Developer;Frontend+developer;Ubuntu+Linux+Enthusiast" alt="Typing SVG" />
 </p>
 ## 🚀 My Journey
+
 I am an aspiring Software Developer currently mastering Web Development. Familiar with Cloud Infrastructure,and learning how to utilize Google Cloud Platform (GCP) for service management and environment configuration. 
 
 My path hasn't been a straight line—after a critical system failure on my Windows machine, I took the leap and transitioned entirely to Linux (Ubuntu). This challenge turned into a major growth opportunity, forcing me to master the terminal, understand OS internals, and rebuild my development environment from the ground up.
@@ -21,7 +22,7 @@ My path hasn't been a straight line—after a critical system failure on my Wind
 ---
 
 ### 🛠️ My Toolbox
-* **Frontend:** HTML5, CSS>3, JavaScript (Learning)
+* **Frontend:** HTML5, CSS>3, JavaScript, Typescript, React frameworks
 * **Tools:** Cursor, VS Code, Git & GitHub, PowerShell
 * **Databases:** Microsoft Access, Database Design (ER-Diagrams)
 * **OS:** linux(ubuntu)
