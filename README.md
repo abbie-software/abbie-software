@@ -1,4 +1,4 @@
-# Hey. I am <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=⋆.ೃ࿔𐦍Abbie🌸*:･ " alt = "Typing SVG" /> and welcome to my very interesting journey of software development from scratch
+# Hey. I am⋆.ೃ࿔𐦍Abbie🌸*:･ and welcome to my very interesting journey of software development from scratch
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Code+with+Abbie; Math and Computer Science student; Software+Developer;Frontend+developer;Ubuntu+Linux+Enthusiast" alt="Typing SVG" />
