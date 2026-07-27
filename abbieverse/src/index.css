@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-abbie-bg: #0a0512;
+  --color-abbie-dark: #120a1f;
+  --color-abbie-pink: #ec4899;
+  --color-abbie-pink-light: #f9a8d4;
+  --color-abbie-purple: #a855f7;
+  --color-abbie-purple-dark: #6b21a8;
+}
+
+body {
+  background-color: var(--color-abbie-bg);
+  color: white;
+  font-family: 'Poppins', system-ui, sans-serif;
+}
