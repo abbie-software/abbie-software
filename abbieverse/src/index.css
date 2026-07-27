@@ -7,6 +7,7 @@
   --color-abbie-pink-light: #f9a8d4;
   --color-abbie-purple: #a855f7;
   --color-abbie-purple-dark: #6b21a8;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
 body {
