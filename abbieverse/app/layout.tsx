@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, JetBrains_Mono } from "next/font/google";
-import "./global.css";
+import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
