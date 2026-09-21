@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
-  --color-abbie-bg: #0a0512;
-  --color-abbie-dark: #120a1f;
   --color-abbie-pink: #ec4899;
   --color-abbie-pink-light: #f9a8d4;
   --color-abbie-purple: #a855f7;
@@ -12,8 +12,21 @@
   --font-mono: var(--font-jetbrains-mono);
 }
 
+:root {
+  --color-abbie-bg: #f5f3f7;
+  --color-abbie-dark: #ffffff;
+  --color-abbie-text: #120a1f;
+}
+
+.dark {
+  --color-abbie-bg: #0a0512;
+  --color-abbie-dark: #120a1f;
+  --color-abbie-text: #ffffff;
+}
+
 body {
   background-color: var(--color-abbie-bg);
-  color: white;
+  color: var(--color-abbie-text);
   font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
