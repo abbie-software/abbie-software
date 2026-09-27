@@ -1,7 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BriefcaseBusiness, Code2, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
+import {SiGithub } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa6";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
@@ -75,7 +77,7 @@ export function NavOverlay({ onNavigate }: { onNavigate: () => void }) {
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm text-abbie-text/60 hover:text-abbie-pink"
         >
-          <Code2 size={18} /> GitHub
+          <SiGithub size={18} /> GitHub
         </a>
         <a
           href="https://linkedin.com/in/abigail-gathoni"
@@ -83,7 +85,7 @@ export function NavOverlay({ onNavigate }: { onNavigate: () => void }) {
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm text-abbie-text/60 hover:text-abbie-pink"
         >
-          <BriefcaseBusiness size={18} /> LinkedIn
+          <FaLinkedin size={18} /> LinkedIn
         </a>
         <a
           href="mailto:abigailgathoni5@gmail.com"
