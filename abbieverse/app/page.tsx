@@ -4,6 +4,8 @@ import { useState } from "react";
 import IntroLoader from "@/src/components/intro-loader";
 import { ThemeToggle } from "@/src/components/theme-toggle";
 import {Navbar} from "@/src/components/navbar";
+import HeroSection from "@/src/components/sections/hero";
+import AboutSection  from "@/src/components/sections/about";
 
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
@@ -14,8 +16,9 @@ export default function Home() {
       {introDone && (
        <>
           <Navbar />
-          <main id="home" className="flex min-h-screen flex-col items-center justify-center gap-6">
-            <h1 className="text-3xl">Sections coming next 🚀</h1>
+          <main>
+            <HeroSection />
+            <AboutSection />
           </main>
         </>
       )}
