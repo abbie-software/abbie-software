@@ -6,6 +6,7 @@ import { ThemeToggle } from "@/src/components/theme-toggle";
 import {Navbar} from "@/src/components/navbar";
 import HeroSection from "@/src/components/sections/hero";
 import AboutSection  from "@/src/components/sections/about";
+import SkillsSection from "@/src/components/sections/skills";
 
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
@@ -19,6 +20,8 @@ export default function Home() {
           <main>
             <HeroSection />
             <AboutSection />
+            <SkillsSection />
+            <ThemeToggle />
           </main>
         </>
       )}
