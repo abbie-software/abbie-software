@@ -7,7 +7,7 @@ import {Navbar} from "@/src/components/navbar";
 import HeroSection from "@/src/components/sections/hero";
 import AboutSection  from "@/src/components/sections/about";
 import SkillsSection from "@/src/components/sections/skills";
-
+import CertificationsSection from "@/src/components/sections/certifications";
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
 
@@ -21,6 +21,7 @@ export default function Home() {
             <HeroSection />
             <AboutSection />
             <SkillsSection />
+            <CertificationsSection />
             <ThemeToggle />
           </main>
         </>
