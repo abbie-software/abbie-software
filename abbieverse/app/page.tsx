@@ -12,7 +12,7 @@ import AchievementsSection from "@/src/components/sections/achievements";
 import EducationSection from "@/src/components/sections/education";
 import ProjectsSection from "@/src/components/sections/projects";
 import ContactSection from "@/src/components/sections/contact";
-
+import { Footer } from "@/src/components/footer";
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
 
@@ -31,8 +31,8 @@ export default function Home() {
             <AchievementsSection />
             <EducationSection/>
             <ContactSection />
-            <ThemeToggle />
           </main>
+          <Footer />
         </>
       )}
     </>
