@@ -1,12 +1,35 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowLeft, Download } from "lucide-react";
+import { ArrowLeft, Download, Loader2 } from "lucide-react";
 
 const RESUME_PATH = "/resume.pdf";
 
 export default function ResumeView() {
+  const [blobUrl, setBlobUrl] = useState<string | null>(null);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    let objectUrl: string | null = null;
+
+    fetch(RESUME_PATH)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch resume");
+        return res.blob();
+      })
+      .then((blob) => {
+        objectUrl = URL.createObjectURL(blob);
+        setBlobUrl(objectUrl);
+      })
+      .catch(() => setError(true));
+
+    return () => {
+      if (objectUrl) URL.revokeObjectURL(objectUrl);
+    };
+  }, []);
+
   return (
     <div className="flex min-h-screen flex-col bg-abbie-bg font-sans">
       <div className="mx-auto w-full max-w-4xl shrink-0 px-4 pt-10 md:pt-16">
@@ -40,13 +63,21 @@ export default function ResumeView() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="aspect-[210/297] w-full overflow-hidden rounded-2xl bg-white shadow-xl"
+          className="flex aspect-[210/297] w-full items-center justify-center overflow-hidden rounded-2xl bg-white shadow-xl"
         >
-          <iframe
-            src={`${RESUME_PATH}#toolbar=0&navpanes=0&view=FitH`}
-            title="Abigail Gathoni Murigi — Résumé"
-            className="h-full w-full"
-          />
+          {error ? (
+            <p className="px-6 text-center text-sm text-red-500">
+              Couldn&apos;t load the résumé preview. Try the download button above instead.
+            </p>
+          ) : blobUrl ? (
+            <iframe
+              src={`${blobUrl}#toolbar=0&navpanes=0&view=FitH`}
+              title="Abigail Gathoni Murigi — Résumé"
+              className="h-full w-full"
+            />
+          ) : (
+            <Loader2 className="animate-spin text-abbie-purple" size={32} />
+          )}
         </motion.div>
       </div>
     </div>
