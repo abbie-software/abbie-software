@@ -8,6 +8,8 @@ import HeroSection from "@/src/components/sections/hero";
 import AboutSection  from "@/src/components/sections/about";
 import SkillsSection from "@/src/components/sections/skills";
 import CertificationsSection from "@/src/components/sections/certifications";
+import AchievementsSection from "@/src/components/sections/achievements";
+
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
 
@@ -22,6 +24,7 @@ export default function Home() {
             <AboutSection />
             <SkillsSection />
             <CertificationsSection />
+            <AchievementsSection />
             <ThemeToggle />
           </main>
         </>
