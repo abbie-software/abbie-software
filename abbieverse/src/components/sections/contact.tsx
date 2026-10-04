@@ -20,8 +20,7 @@ export default function ContactSection() {
         <ScrollReveal delay={0.1}>
           <div className="flex flex-col gap-4">
             <p className="text-abbie-text/60">
-              Prefer to reach out directly? Find me here: 0706475134
-            </p>
+              Prefer to reach out directly? Find me here:           </p>
             <a
               href={`mailto:${config.email}`}
               className="flex items-center gap-3 rounded-xl border border-abbie-purple/20 bg-abbie-purple/5 px-5 py-4 text-abbie-text transition-colors hover:border-abbie-pink/40"

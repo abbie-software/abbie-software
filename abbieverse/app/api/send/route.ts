@@ -3,6 +3,9 @@ import { config } from "@/src/data/config";
 import { Resend } from "resend";
 import { z } from "zod";
 
+if (!process.env.RESEND_API_KEY) {
+  console.error("RESEND_API_KEY is missing from environment variables");
+}
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const rateLimit = new Map<string, { count: number; resetAt: number }>();
@@ -41,6 +44,7 @@ export async function POST(req: Request) {
     if (!parsed.success) {
       return Response.json({ error: parsed.error.issues[0].message }, { status: 400 });
     }
+    
 
     const { fullName, email, message } = parsed.data;
 
@@ -51,12 +55,14 @@ export async function POST(req: Request) {
       react: EmailTemplate({ fullName, email, message }),
     });
 
-    if (error) {
-      return Response.json({ error: "Failed to send email" }, { status: 500 });
-    }
+   if (error) {
+  console.error("Resend error:", error);
+  return Response.json({ error: "Failed to send email" }, { status: 500 });
+}
 
-    return Response.json({ success: true });
-  } catch {
-    return Response.json({ error: "Something went wrong" }, { status: 500 });
-  }
+return Response.json({ success: true });
+} catch (err) {
+  console.error("API /send crashed:", err);
+  return Response.json({ error: "Something went wrong" }, { status: 500 });
+}
 }
