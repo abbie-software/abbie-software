@@ -24,9 +24,9 @@ export default function ProjectsSection() {
       className="object-cover"
     />
   ) : (
-    <span className="px-6 text-center text-sm text-abbie-text/40">
-      Preview coming soon
-    </span>
+  <span className="px-6 text-center text-2xl font-bold text-white sm:text-3xl" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
+  {project.title}
+</span>
   )}
 </div>
               <div className="flex flex-col">
