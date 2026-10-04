@@ -14,17 +14,21 @@ export default function ProjectsSection() {
       <div className="flex flex-col gap-16">
         {PROJECTS.map((project, i) => (
           <ScrollReveal key={project.slug} delay={i * 0.1}>
-            <div className="grid gap-8 rounded-2xl border border-abbie-purple/20 bg-abbie-purple/5 p-6 md:grid-cols-2 md:p-8">
-              <div className="relative aspect-video overflow-hidden rounded-xl border border-abbie-purple/20">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
-
+            <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-xl border border-abbie-purple/20 bg-gradient-to-br from-abbie-purple/20 to-abbie-pink/10">
+  {project.image ? (
+    <Image
+      src={project.image}
+      alt={project.title}
+      fill
+      sizes="(min-width: 768px) 50vw, 100vw"
+      className="object-cover"
+    />
+  ) : (
+    <span className="px-6 text-center text-sm text-abbie-text/40">
+      Preview coming soon
+    </span>
+  )}
+</div>
               <div className="flex flex-col">
                 <h3 className="text-2xl font-bold text-abbie-text">{project.title}</h3>
                 <p className="mt-2 text-abbie-text/70">{project.description}</p>
@@ -101,7 +105,6 @@ export default function ProjectsSection() {
                   )}
                 </div>
               </div>
-            </div>
           </ScrollReveal>
         ))}
       </div>
