@@ -20,7 +20,7 @@ export default function ContactSection() {
         <ScrollReveal delay={0.1}>
           <div className="flex flex-col gap-4">
             <p className="text-abbie-text/60">
-              Prefer to reach out directly? Find me here:
+              Prefer to reach out directly? Find me here: 0706475134
             </p>
             <a
               href={`mailto:${config.email}`}
