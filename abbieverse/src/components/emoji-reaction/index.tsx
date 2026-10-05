@@ -100,22 +100,29 @@ export default function EmojiReaction() {
     if (activeIndexRef.current !== index) setActiveIndex(index);
   }, []);
 
-  const handleMouseUp = useCallback(
-    (e: MouseEvent) => {
-      if (!isOpenRef.current) return;
+ const handleMouseUp = useCallback(
+  (e: MouseEvent) => {
+    if (!isOpenRef.current) return;
 
-      if (activeIndexRef.current !== null) {
-        const item = MENU_ITEMS[activeIndexRef.current];
-        fireConfetti(e.pageX, e.pageY, item.emoji);
-        spawnShockwave(e.clientX, e.clientY, item.color, item.emoji);
-      }
+    if (activeIndexRef.current !== null) {
+      const item = MENU_ITEMS[activeIndexRef.current];
+      fireConfetti(e.pageX, e.pageY, item.emoji);
+      spawnShockwave(e.clientX, e.clientY, item.color, item.emoji);
 
-      setIsOpen(false);
-      setActiveIndex(null);
-    },
-    [fireConfetti, spawnShockwave]
-  );
+      fetch("/api/reaction", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ emoji: item.emoji, label: item.label }),
+      }).catch(() => {
+        // silently ignore — a failed notification shouldn't interrupt the visitor's experience
+      });
+    }
 
+    setIsOpen(false);
+    setActiveIndex(null);
+  },
+  [fireConfetti, spawnShockwave]
+);
   const handleContextMenu = useCallback((e: MouseEvent) => {
     if (suppressMenuRef.current) {
       e.preventDefault();
