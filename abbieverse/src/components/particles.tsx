@@ -28,10 +28,10 @@ type Circle = {
 
 export default function Particles({
   className = "",
-  quantity = 60,
+  quantity = 700,
   staticity = 20,
-  ease = 15,
-  color = "236, 72, 153", // abbie-pink as rgb
+  ease = 10,
+  color = "2, 72, 153", // abbie-pink as rgb
   maxDpr = 2,
 }: ParticlesProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
