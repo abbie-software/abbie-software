@@ -34,7 +34,7 @@ export function RightClickHint({ dismissed }: { dismissed: boolean }) {
           className="fixed bottom-6 left-1/2 z-40 flex -translate-x-1/2 items-center gap-2 rounded-full border border-abbie-purple/30 bg-abbie-bg/90 px-4 py-2 text-xs text-abbie-text/70 shadow-lg backdrop-blur-sm"
         >
           <MousePointerClick size={14} className="text-abbie-pink" />
-          Try holding right-click anywhere
+          like what you see? Right click to leave me your honest feedback
         </motion.div>
       )}
     </AnimatePresence>
