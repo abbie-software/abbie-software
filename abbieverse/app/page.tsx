@@ -14,6 +14,7 @@ import ProjectsSection from "@/src/components/sections/projects";
 import ContactSection from "@/src/components/sections/contact";
 import { Footer } from "@/src/components/footer";
 import Particles from "@/src/components/particles";
+import EmojiReaction from "@/src/components/emoji-reaction";
 
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
@@ -24,6 +25,7 @@ export default function Home() {
       {introDone && (
        <>
        <Particles quantity={700} color="2, 72, 153"/>
+       <EmojiReaction />
           <Navbar />
           <main>
             <HeroSection />
