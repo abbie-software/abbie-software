@@ -12,7 +12,7 @@ export async function GET() {
   return new Response(new Uint8Array(file), {
     headers: {
       "Content-Type": "application/pdf",
-      "Content-Disposition": 'inline; filename="Abigail_Gathoni_Murigi_CV.pdf"',
+      "Content-Disposition": 'inline; filename="Abigail\'s Resume.pdf"',
       "Cache-Control": "no-store",
     },
   });
