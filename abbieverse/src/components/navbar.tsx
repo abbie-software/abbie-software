@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -12,13 +13,12 @@ export function Navbar() {
   return (
     <>
       <header className="fixed inset-x-0 top-0 z-50 flex items-center justify-between px-6 py-5 sm:px-10">
-        <a
-          href="#home"
-          onClick={() => setOpen(false)}
-          className="text-lg font-bold tracking-tight text-abbie-text"
-        >
-          Abbie<span className="text-abbie-pink">verse</span>
-        </a>
+        <a href="#home" onClick={() => setOpen(false)} className="flex items-center gap-2">
+  <Image src="/images/logo.jpg" alt="Abbieverse" width={32} height={32} className="rounded-full" />
+  <span className="text-lg font-bold tracking-tight text-abbie-text">
+    Abbie<span className="text-abbie-pink">verse</span>
+  </span>
+</a>
 
         <div className="flex items-center gap-4">
           <ThemeToggle />
