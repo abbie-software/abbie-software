@@ -3,6 +3,9 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-abbie-bg: #0a0512;
+  --color-abbie-dark: #120a1f;
+  --color-abbie-text: #ffffff;
   --color-abbie-pink: #ec4899;
   --color-abbie-pink-light: #f9a8d4;
   --color-abbie-purple: #a855f7;
