@@ -13,6 +13,8 @@ import EducationSection from "@/src/components/sections/education";
 import ProjectsSection from "@/src/components/sections/projects";
 import ContactSection from "@/src/components/sections/contact";
 import { Footer } from "@/src/components/footer";
+import Particles from "@/src/components/particles";
+
 export default function Home() {
   const [introDone, setIntroDone] = useState(false);
 
@@ -21,6 +23,7 @@ export default function Home() {
       {!introDone && <IntroLoader onComplete={() => setIntroDone(true)} />}
       {introDone && (
        <>
+       <Particles quantity={70} color="236, 72, 153"/>
           <Navbar />
           <main>
             <HeroSection />
