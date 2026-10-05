@@ -9,7 +9,7 @@ interface ParticlesProps {
   quantity?: number;
   staticity?: number;
   ease?: number;
-  color?: string; // "r, g, b" string, e.g. "236, 72, 153" for pink
+  color?: string; 
   maxDpr?: number;
 }
 
@@ -29,8 +29,8 @@ type Circle = {
 export default function Particles({
   className = "",
   quantity = 60,
-  staticity = 50,
-  ease = 50,
+  staticity = 20,
+  ease = 15,
   color = "236, 72, 153", // abbie-pink as rgb
   maxDpr = 2,
 }: ParticlesProps) {

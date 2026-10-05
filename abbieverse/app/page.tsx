@@ -23,7 +23,7 @@ export default function Home() {
       {!introDone && <IntroLoader onComplete={() => setIntroDone(true)} />}
       {introDone && (
        <>
-       <Particles quantity={70} color="236, 72, 153"/>
+       <Particles quantity={700} color="2, 72, 153"/>
           <Navbar />
           <main>
             <HeroSection />
